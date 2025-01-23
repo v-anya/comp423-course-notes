@@ -119,5 +119,13 @@ fn main() {
 Run the following commands:
 ``` bash
 cargo build
-target/debug/hello_world
+./target/debug/hello-world
 ```
+The `build` command compiles your code and outputs and executable stored in target/debug.
+Calling on the executable prints `Hello COMP423` to your terminal.
+
+You can also do both in one command.
+``` bash
+cargo run
+```
+This will both compile and run it in a single step. 
