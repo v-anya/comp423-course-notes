@@ -9,7 +9,7 @@ _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/
 3. **Visual Studio Code:** Get VS Code [here](https://code.visualstudio.com/).
 4. **Docker:** Download and install [here](https://www.docker.com/products/docker-desktop).
 
-## Creating the Repository
+## Part 1: Creating the Repository
 ### Step 1. Create a Local Directory and Initialize Git
 (A) Open your terminal or command prompt.
 
@@ -61,7 +61,7 @@ git commit -m "Initial commit with README"
    ```
 (4) Back in your web browser, refresh your GitHub repository to see that the same commit you made locally has now been _pushed_ to remote. You can use `git log` locally to see the commit ID and message which should match the ID of the most recent commit on GitHub. This is the result of pushing your changes to your remote repository.
 
-## Setting Up the Development Environment
+## Part 2: Setting Up the Development Environment
 ### Step 1. Add Development Container Configuration
 
 1. In VS Code, open the `rust-starter-project` directory. You can do this via: File > Open Folder.
