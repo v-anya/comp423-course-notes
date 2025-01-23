@@ -1,6 +1,8 @@
 # Setting up a dev container for Rust
 * Primary author: [Anya Vourakis](https://github.com/v-anya)
 
+
+Welcome! In this tutorial, you'll learn to make your first Rust project. Starting from a blank directory, you'll set up a basic Rust development container (dev container) in Visual Studio Code (VS Code) and write your first program.
 ## Prerequisites:
 _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/MkDocs/tutorial/)._
 
