@@ -9,7 +9,7 @@ _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/
 3. **Visual Studio Code:** Get VS Code [here](https://code.visualstudio.com/).
 4. **Docker:** Download and install [here](https://www.docker.com/products/docker-desktop).
 
-## Project Setup
+## Creating the Repository
 ### Step 1. Create a Local Directory and Initialize Git
 (A) Open your terminal or command prompt.
 
@@ -64,7 +64,7 @@ git commit -m "Initial commit with README"
 ## Setting Up the Development Environment
 ### Step 1. Add Development Container Configuration
 
-1. In VS Code, open the `comp423-course-notes` directory. You can do this via: File > Open Folder.
+1. In VS Code, open the `rust-starter-project` directory. You can do this via: File > Open Folder.
 2. Install the **Dev Containers** extension for VS Code.
 3. Create a `.devcontainer` directory in the root of your project with the following file inside of this "hidden" configuration directory:
 
@@ -73,8 +73,8 @@ git commit -m "Initial commit with README"
 The `devcontainer.json` file defines the configuration for your development environment. Here, we're specifying the following:
 
 - **`name`**: A descriptive name for your dev container.
-- **`image`**: The Docker image to use, in this case, the latest version of a Python environment. [Microsoft maintains a collection of base images for many programming language environments](https://hub.docker.com/r/microsoft/vscode-devcontainers), but you can also create your own!
-- **`customizations`**: Adds useful configurations to VS Code, like installing the Python extension. When you search for VSCode extensions on the marketplace, you will find the string identifier of each extension in its sidebar. Adding extensions here ensures other developers on your project have them installed in their dev containers automatically.
+- **`image`**: The Docker image to use, in this case, the latest version of a Rust environment. [Microsoft maintains a collection of base images for many programming language environments](https://hub.docker.com/r/microsoft/vscode-devcontainers), but you can also create your own!
+- **`customizations`**: Adds useful configurations to VS Code, like installing the Rust Analyzer extension. When you search for VSCode extensions on the marketplace, you will find the string identifier of each extension in its sidebar. Adding extensions here ensures other developers on your project have them installed in their dev containers automatically.
 
 ```json
 {
