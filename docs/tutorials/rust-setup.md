@@ -142,3 +142,21 @@ cargo run
 This will both compile and run it in a single step. 
 !!! info 
     Notice the `Cargo.lock` file? It stores information on your dependencies--we just don't have any yet.
+### Step 4: Sharing your Work to GitHub.
+(1) Stage your changes.
+``` bash
+git add .
+```
+!!! question "What is the `.` in that command?"
+
+    It refers to the current working directory the terminal's shell process is in.
+
+(2) Commit your changes with a significant message.
+```bash 
+git commit -m "Created Hello World program."
+```
+(3) Push your changes to GitHub.
+```bash
+git push
+```
+(4) Open your GitHub repository. You will see your project's latest commit was pushed succesfully. 
