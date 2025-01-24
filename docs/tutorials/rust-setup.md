@@ -1,5 +1,6 @@
 # Setting up a dev container for Rust
 * Primary author: [Anya Vourakis](https://github.com/v-anya)
+* Reviewer: [Pilar Chia](https://github.com/mchia157)
 
 ## Prerequisites:
 _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/MkDocs/tutorial/)._
@@ -129,3 +130,4 @@ You can also do both in one command.
 cargo run
 ```
 This will both compile and run it in a single step. 
+
