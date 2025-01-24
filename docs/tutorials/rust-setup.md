@@ -1,3 +1,15 @@
 # Setting up a dev container for Rust
 * Primary author: [Anya Vourakis](https://github.com/v-anya)
 * Reviewer: [Pilar Chia](https://github.com/mchia157)
+
+``` rs
+fn main() {
+    // Statements here are executed when the compiled binary is called.
+
+    // Print text to the console.
+    println!("Hello World!");
+}
+```
+
+!!! Note 
+Hi! Emocionate si lo ves wiiii
