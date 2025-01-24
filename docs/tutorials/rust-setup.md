@@ -1,14 +1,16 @@
 # Setting up a dev container for Rust
 * Primary author: [Anya Vourakis](https://github.com/v-anya)
+* Reviewer: [Pilar Chia](https://github.com/mchia157)
 
-## Prerequisites:
 _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/MkDocs/tutorial/)._
+## Prerequisites:
 
 1. **Your own GitHub account:** [Sign up](https://github.com/) if you haven't.
-2. **Git:** Got it? Get it [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you don't.(note to run git --version to check if downloaded)
+2. **Git:** Got it? Get it [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you don't.        
 3. **Visual Studio Code:** Get VS Code [here](https://code.visualstudio.com/).
 4. **Docker:** Download and install [here](https://www.docker.com/products/docker-desktop).
 
+<<<<<<< HEAD
 ## Part 1: Creating the Repository
 ### Step 1. Create a Local Directory and Initialize Git
 (A) Open your terminal or command prompt.
@@ -98,3 +100,7 @@ Once your dev container setup completes, close the current terminal tab (trash c
 !!! question  "How to open the terminal?"
  
     Hit ``Ctrl+` ``.
+=======
+!!! Tip
+    You can run `git --version` on your terminal to check if Git is installed.
+>>>>>>> main
