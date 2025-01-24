@@ -2,14 +2,13 @@
 * Primary author: [Anya Vourakis](https://github.com/v-anya)
 * Reviewer: [Pilar Chia](https://github.com/mchia157)
 
-``` rs
-fn main() {
-    // Statements here are executed when the compiled binary is called.
+_Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/MkDocs/tutorial/)._
+## Prerequisites:
 
-    // Print text to the console.
-    println!("Hello World!");
-}
-```
+1. **Your own GitHub account:** [Sign up](https://github.com/) if you haven't.
+2. **Git:** Got it? Get it [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you don't.        
+3. **Visual Studio Code:** Get VS Code [here](https://code.visualstudio.com/).
+4. **Docker:** Download and install [here](https://www.docker.com/products/docker-desktop).
 
-!!! Note 
-    Hi! Emocionate si lo ves wiiii
+!!! Tip
+    You can run `git --version` on your terminal to check if Git is installed.
