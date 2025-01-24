@@ -125,10 +125,14 @@ fn main() {
 ### Step 3: Compile and Run
 Run the following commands:
 ``` bash
-cargo build
-./target/debug/hello-world
+cargo build # (1)!
+./target/debug/hello-world # (2)!
 ```
-The `build` command compiles your code and outputs and executable stored in `target/debug`.
+
+1. Compile.
+2. Run.
+
+The `build` command translates your Rust program to machine code and stores that executable in `target/debug`.
 Calling on the executable prints `Hello COMP423` to your terminal.
 
 You can also do both in one command.
