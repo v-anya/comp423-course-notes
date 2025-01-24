@@ -9,3 +9,6 @@ fn main() {
     println!("Hello World!");
 }
 ```
+
+!!! Note 
+Hi! Emocionate si lo ves wiiii
