@@ -24,7 +24,7 @@ git init
 ```
 (D) Create a README file:
 ``` bash
-echo "# Rust starter project" > README.md
+echo "# Rust starter project from https://v-anya.github.io/comp423-course-notes/tutorials/rust-setup/" > README.md
 git add README.md
 git commit -m "Initial commit with README"
 ```
@@ -76,7 +76,7 @@ The `devcontainer.json` file defines the configuration for your development envi
 - **`image`**: The Docker image to use, in this case, the latest version of a Rust environment. [Microsoft maintains a collection of base images for many programming language environments](https://hub.docker.com/r/microsoft/vscode-devcontainers), but you can also create your own!
 - **`customizations`**: Adds useful configurations to VS Code, like installing the Rust Analyzer extension. When you search for VSCode extensions on the marketplace, you will find the string identifier of each extension in its sidebar. Adding extensions here ensures other developers on your project have them installed in their dev containers automatically.
 
-```json
+```json title=".devcontainer/devcontainer.json"
 {
   "name": "Rust Starter Project",
   "image": "mcr.microsoft.com/vscode/devcontainers/rust:latest",
@@ -93,4 +93,8 @@ The `devcontainer.json` file defines the configuration for your development envi
 
 Reopen the project in the container by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac), typing "Dev Containers: Reopen in Container," and selecting the option. This may take a few minutes while the image is downloaded and the requirements are installed.
 
-Once your dev container setup completes, close the current terminal tab (trash can), open a new terminal pane within VSCode, and try running `rustc --version` to see your dev container is running a recent version of Rust.
+Once your dev container setup completes, close the current terminal tab (trash can icon), open a new terminal pane within VSCode, and try running `rustc --version` to see your dev container is running a recent version of Rust.
+
+!!! question  "How to open the terminal?"
+ 
+    Hit ``Ctrl+` ``.
