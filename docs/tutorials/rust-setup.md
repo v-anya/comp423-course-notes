@@ -1,5 +1,6 @@
 # Setting up a dev container for Rust
 * Primary author: [Anya Vourakis](https://github.com/v-anya)
+* Reviewer: [Pilar Chia](https://github.com/mchia157)
 
 ## Prerequisites:
 _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/MkDocs/tutorial/)._
@@ -9,3 +10,13 @@ _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/
 3. **Visual Studio Code:** Get VS Code [here](https://code.visualstudio.com/).
 4. **Docker:** Download and install [here](https://www.docker.com/products/docker-desktop).
 
+<<<<<<< HEAD
+=======
+    // Print text to the console.
+    println!("Hello World!");
+}
+```
+
+!!! Note 
+    Hi! Emocionate si lo ves wiiii
+>>>>>>> main
