@@ -10,7 +10,8 @@ _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/
 3. **Visual Studio Code:** Get VS Code [here](https://code.visualstudio.com/).
 4. **Docker:** Download and install [here](https://www.docker.com/products/docker-desktop).
 
-<<<<<<< HEAD
+!!! Tip
+    You can run `git --version` on your terminal to check if Git is installed.
 ## Part 1: Creating the Repository
 ### Step 1. Create a Local Directory and Initialize Git
 (A) Open your terminal or command prompt.
@@ -100,7 +101,3 @@ Once your dev container setup completes, close the current terminal tab (trash c
 !!! question  "How to open the terminal?"
  
     Hit ``Ctrl+` ``.
-=======
-!!! Tip
-    You can run `git --version` on your terminal to check if Git is installed.
->>>>>>> main
