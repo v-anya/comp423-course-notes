@@ -16,11 +16,13 @@ _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/
 ### Step 1. Create a Local Directory and Initialize Git
 (1) Open your terminal or command prompt.
 
-(2) Create a new directory for your project. (if you'd like to organize this tutorial somewhere else on your machine, change into that parent directory first. )
+(2) Create a new directory for your project. 
 ``` bash
 mkdir rust-starter-project
 cd rust-starter-project
 ```
+!!! Note
+    If you'd like to organize this tutorial somewhere else on your machine, change into that parent directory first. 
 (3) Initialize a new Git repository:
 ``` bash
 git init
