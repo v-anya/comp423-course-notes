@@ -103,11 +103,12 @@ Run the following commands in your terminal (inside the container):
 
 ``` bash
 cargo new --vcs none hello-world # (1)!
+cd hello-world
 ```
 
 1. \-\-vcs none prevents the initialization of any version control \(we already created our repo\)
 
-The command creates a new directory called `hello-world`. Inside you'll find a file `Cargo.toml`. This is a manifest with the metadata needed to compile the new package.
+The first command creates a new directory called `hello-world`. The second command lets you access the project files inside the directory. Inside you'll find a file `Cargo.toml`. This is a manifest with the metadata needed to compile the new package.
 You'll also see the `src` directory.
 
 ### Step 2: Edit your program
