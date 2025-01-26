@@ -14,18 +14,18 @@ _Adapted from the [423 MkDocs tutorial](https://comp423-25s.github.io/resources/
     You can run `git --version` on your terminal to check if Git is installed.
 ## Part 1: Creating the Repository
 ### Step 1. Create a Local Directory and Initialize Git
-(A) Open your terminal or command prompt.
+(1) Open your terminal or command prompt.
 
-(B) Create a new directory for your project. (if you'd like to organize this tutorial somewhere else on your machine, change into that parent directory first. )
+(2) Create a new directory for your project. (if you'd like to organize this tutorial somewhere else on your machine, change into that parent directory first. )
 ``` bash
 mkdir rust-starter-project
 cd rust-starter-project
 ```
-(C) Initialize a new Git repository:
+(3) Initialize a new Git repository:
 ``` bash
 git init
 ```
-(D) Create a README file:
+(4) Create a README file:
 ``` bash
 echo "# Rust starter project from https://v-anya.github.io/comp423-course-notes/tutorials/rust-setup/" > README.md
 git add README.md
@@ -55,7 +55,12 @@ git commit -m "Initial commit with README"
 
    Replace `<your-username>` with your GitHub username.
 
-(2) Check your default branch name with the subcommand `git branch`. If it's not `main`, rename it to `main` with the following command: `git branch -M main`. Old versions of `git` choose the name `master` for the primary branch, but these days `main` is the standard primary branch name.
+(2) Check your default branch name with the subcommand `git branch`. If it's not `main`, rename it to `main` with the following command: 
+```
+git branch -M main
+```
+!!! Note
+    Old versions of `git` choose the name `master` for the primary branch, but these days `main` is the standard primary branch name.
 
 (3) Push your local commits to the GitHub repository:
 
