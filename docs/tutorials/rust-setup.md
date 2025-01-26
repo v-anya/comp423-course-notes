@@ -56,10 +56,10 @@ git commit -m "Initial commit with README"
    Replace `<your-username>` with your GitHub username.
 
 (2) Check your default branch name with the subcommand `git branch`. If it's not `main`, rename it to `main` with the following command: 
-```
+```bash
 git branch -M main
 ```
-!!! Note
+!!! info
     Old versions of `git` choose the name `master` for the primary branch, but these days `main` is the standard primary branch name.
 
 (3) Push your local commits to the GitHub repository:
